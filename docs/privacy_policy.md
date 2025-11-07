@@ -8,7 +8,7 @@ layout: default
 _Last updated: 2025-11-07_
 
 ## 1. Overview
-Aeronatics (“we”, “us”, “our”) operates the Aeronatics mobile application and related services for aviation enthusiasts. This privacy policy describes the personal data we collect, how we use and share it, and the options you have. By using Aeronatics you agree to the practices described here.
+AeroNatics (“we”, “us”, “our”) operates the AeroNatics mobile application and related services for aviation enthusiasts. This privacy policy describes the personal data we collect, how we use and share it, and the options you have. By using AeroNatics you agree to the practices described here.
 
 ## 2. Data we collect
 We collect the following categories of information when you use the app:
@@ -27,14 +27,14 @@ We process personal information to:
 2. Provide personalized features (e.g., remembering your spotting locations and preferences).
 3. Maintain safety, security, and integrity (detect fraud/spam, enforce community guidelines, and troubleshoot issues).
 4. Communicate about updates, support requests, and policy changes.
-5. Analyze aggregate usage trends to improve Aeronatics.
+5. Analyze aggregate usage trends to improve AeroNatics.
 
 ## 4. How we share information
 We do not sell your personal data. We may share limited information with:
 
 - **Service providers** – Firebase (Google LLC) for hosting, databases, authentication, analytics, file storage, and cloud functions. These providers act on our behalf under data-processing agreements.
-- **Legal or safety requirements** – when required by law or to protect the rights, property, or safety of Aeronatics, our users, or the public.
-- **Community members** – content you publish (photos, captions, leaderboard stats, username) is visible to other users inside Aeronatics by design.
+- **Legal or safety requirements** – when required by law or to protect the rights, property, or safety of AeroNatics, our users, or the public.
+- **Community members** – content you publish (photos, captions, leaderboard stats, username) is visible to other users inside AeroNatics by design.
 
 ## 5. Data retention
 We keep profile data, submissions, and media for as long as your account remains active. If you delete individual posts or your entire account, associated content is removed or anonymized within a reasonable time unless we must retain it for legal obligations or legitimate business purposes (e.g., audit logs, abuse investigations, or backup retention windows).
@@ -44,12 +44,12 @@ We keep profile data, submissions, and media for as long as your account remains
 - **Permissions** – you can revoke camera, photo library, and location permissions at any time in your device settings. Some features may stop working without those permissions.
 - **Account controls** – update or delete your profile information from the in-app settings. Deleting your account removes your personal data from active systems.
 - **Access / deletion requests** – delete your account using the in-app settings.
-- **Notifications** – manage push/local notification settings inside Aeronatics or your OS notification preferences.
+- **Notifications** – manage push/local notification settings inside AeroNatics or your OS notification preferences.
 
 Depending on your jurisdiction, you may have additional rights (e.g., GDPR, CCPA). We will honor applicable requests once we verify your identity.
 
 ## 7. Children’s privacy
-Aeronatics is intended for users who are at least 13 years old (or the minimum age required in your country). We do not knowingly collect personal information from children under that age. If you believe a child provided us with personal data, contact us so we can remove it.
+AeroNatics is intended for users who are at least 13 years old (or the minimum age required in your country). We do not knowingly collect personal information from children under that age. If you believe a child provided us with personal data, contact us so we can remove it.
 
 ## 8. Changes to this policy
 We may update this policy periodically to reflect product, legal, or operational changes. We will post the new version with an updated “Last updated” date and, when appropriate, notify you via in-app message or email.
