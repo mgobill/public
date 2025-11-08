@@ -7,6 +7,6 @@ layout: default
 
 Looking for the AeroNatics privacy policy?
 
-- [View the Privacy Policy](./privacy_policy)
+- [View the Privacy Policy](./aeronatics_privacy_policy)
 
-You can share this direct link: `https://mgobill.github.io/aeronatics_public/privacy_policy/`.
+You can share this direct link: `https://mgobill.github.io/public/aeronatics_privacy_policy/`.
