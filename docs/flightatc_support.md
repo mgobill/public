@@ -1,29 +1,28 @@
 ---
-title: FlightATC Support
+title: Flight ATC Support
 layout: default
 ---
 
-# FlightATC Support
+# Flight ATC Support
 
-Thanks for flying with FlightATC. This page gives you a single place to find help, report problems, and request new features.
+Thanks for flying with Flight ATC. This page gives you a single place to find help, report problems, and request new features.
 
 ## Contact the team
 
 - **Email:** [moocbear@gmail.com](mailto:moocbear@gmail.com)
-- **Support hours:** Monday–Friday, 9:00–17:00 local time
+- **Support hours:** Monday–Friday, 9:00–17:00 EST
 - **Response target:** within 2 business days
 
 When you reach out, please include:
 
-1. The version of FlightATC you are using (see the Settings → About screen).
+1. The version of Flight ATC you are using (on the introductory screen).
 2. The device model and iOS version.
 3. A brief description of the issue, steps to reproduce it, and screenshots if available.
 
 ## Common topics
 
-- **Account or subscription questions:** Email us and include the Apple ID used for purchase (no passwords).  
 - **App crashes or bugs:** Describe what you were doing right before the crash and whether it happens repeatedly.  
-- **Feature ideas:** Let us know how the feature would help you manage your flights so we can prioritize the work.
+- **Feature ideas:** Let us know how the feature would help so we can prioritize the work.
 
 ## Service status
 
