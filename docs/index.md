@@ -1,5 +1,5 @@
 ---
-title: App Policies
+title: Apps by mgobill
 layout: default
 ---
 
@@ -64,7 +64,6 @@ store listings, support portals, and policy pages.
 <div class="app-grid">
   <div class="app-card">
     <h2>AeroNatics</h2>
-    <div class="status-badge">Store listings pending review</div>
     <p>Modern flight logging and safety tooling designed for both pilots and
     aeronautic hobbyists.</p>
     <div class="card-section">
@@ -86,7 +85,6 @@ store listings, support portals, and policy pages.
 
   <div class="app-card">
     <h2>Flight ATC</h2>
-    <div class="status-badge">Live on both stores</div>
     <p>Air traffic control training drills with quick feedback loops and configurable challenges.</p>
     <div class="card-section">
       <h3>Store Links</h3>
