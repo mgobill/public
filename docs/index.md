@@ -59,6 +59,47 @@ store listings, support portals, and policy pages.
   font-style: italic;
   color: #6b7280;
 }
+
+.store-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 0.75rem;
+}
+
+.store-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  padding: 0.25rem;
+  background: #f8fafc;
+  border: 1px solid #e5e7eb;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+}
+
+.store-badge img {
+  height: 48px;
+  display: block;
+}
+
+.store-badge:not(.disabled):hover {
+  transform: translateY(-2px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.08);
+}
+
+.store-badge.disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+  flex-direction: column;
+  background: #f1f5f9;
+}
+
+.store-badge.disabled span {
+  font-size: 0.75rem;
+  margin-top: 0.35rem;
+  color: #6b7280;
+}
 </style>
 
 <div class="app-grid">
@@ -68,10 +109,27 @@ store listings, support portals, and policy pages.
     aeronautic hobbyists.</p>
     <div class="card-section">
       <h3>Store Links</h3>
-      <ul>
-        <li>Google Play — <span class="coming-soon">Coming soon</span></li>
-        <li>Apple App Store — <span class="coming-soon">Coming soon</span></li>
-      </ul>
+      <div class="store-badges">
+        <a
+          class="store-badge"
+          href="https://apps.apple.com/app/aeronatics/id6755212824"
+          target="_blank"
+          rel="noopener"
+          aria-label="Download Aeronatics on the App Store"
+        >
+          <img
+            src="../assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            alt="Download on the App Store"
+          />
+        </a>
+        <div class="store-badge disabled" aria-label="Google Play coming soon">
+          <img
+            src="../assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg"
+            alt="Get it on Google Play (coming soon)"
+          />
+          <span>Coming soon</span>
+        </div>
+      </div>
     </div>
     <div class="card-section">
       <h3>Support & Policies</h3>
@@ -88,10 +146,32 @@ store listings, support portals, and policy pages.
     <p>Air traffic control training drills with quick feedback loops and configurable challenges.</p>
     <div class="card-section">
       <h3>Store Links</h3>
-      <ul>
-        <li><a href="https://play.google.com/store/apps/details?id=com.mgobill.flightatc&pcampaignid=web_share" target="_blank" rel="noopener">Google Play</a></li>
-        <li><a href="https://apps.apple.com/us/app/flight-atc/id6755204257" target="_blank" rel="noopener">Apple App Store</a></li>
-      </ul>
+      <div class="store-badges">
+        <a
+          class="store-badge"
+          href="https://play.google.com/store/apps/details?id=com.mgobill.flightatc&pcampaignid=web_share"
+          target="_blank"
+          rel="noopener"
+          aria-label="Get Flight ATC on Google Play"
+        >
+          <img
+            src="../assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg"
+            alt="Get it on Google Play"
+          />
+        </a>
+        <a
+          class="store-badge"
+          href="https://apps.apple.com/us/app/flight-atc/id6755204257"
+          target="_blank"
+          rel="noopener"
+          aria-label="Download Flight ATC on the App Store"
+        >
+          <img
+            src="../assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg"
+            alt="Download on the App Store"
+          />
+        </a>
+      </div>
     </div>
     <div class="card-section">
       <h3>Support & Policies</h3>
