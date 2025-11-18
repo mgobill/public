@@ -214,7 +214,6 @@ section.main-content {
   <h1>Purpose-built mobile experiences for flight logging, spotting, and air traffic thrills.</h1>
   <p>
     Keep your aviation passion organized with AeroNatics or jump into quick air traffic challenges in Flight ATC.
-    Each title below includes fresh marketing copy, store badges, and quick links so you can share the projects with confidence.
   </p>
   <ul class="hero-highlights">
     <li>Native iOS + Android experiences</li>
