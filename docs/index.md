@@ -137,10 +137,12 @@ and quick links to stores, support, and policies.
   align-items: center;
   justify-content: center;
   border-radius: 14px;
-  padding: 0.35rem 0.5rem;
-  background: #0f172a;
-  border: 1px solid rgba(15, 23, 42, 0.1);
-  transition: transform 150ms ease, box-shadow 150ms ease;
+  padding: 0;
+  background: transparent;
+  border: none;
+  line-height: 0;
+  box-shadow: none;
+  transition: transform 150ms ease;
 }
 
 .store-badge img {
@@ -150,7 +152,6 @@ and quick links to stores, support, and policies.
 
 .store-badge:hover {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(15, 23, 42, 0.25);
 }
 
 .policy-links {
@@ -207,74 +208,9 @@ and quick links to stores, support, and policies.
 </div>
 
 <div class="app-panels">
-  <article class="app-panel" id="aeronatics">
-    <div class="app-header">
-      <img src="{{ '/docs/assets/icon_aeronatics.png' | relative_url }}" alt="AeroNatics app icon" />
-      <div>
-        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Spotting & Trip Logging</p>
-        <h2>AeroNatics</h2>
-        <p class="app-lede">
-          Discover aircraft near you, log trips, and share missions with fellow aviation fans worldwide.
-          AeroNatics keeps every moment organized, measurable, and easy to celebrate.
-        </p>
-      </div>
-    </div>
-    <div class="feature-grid">
-      <div class="feature-block">
-        <h3>Share & Discover</h3>
-        <ul class="feature-list">
-          <li>Upload photos with airline, aircraft, and airport tags.</li>
-          <li>Post to global or followers-only feeds and keep collections curated.</li>
-          <li>Bookmark, search, follow spotters, and stay inspired.</li>
-        </ul>
-      </div>
-      <div class="feature-block">
-        <h3>AeroDex & AeroLog</h3>
-        <ul class="feature-list">
-          <li>Reorder manufacturers, hide groups, and track which operators you have captured.</li>
-          <li>Capture multi-leg trip details including seats, registrations, durations, and cabins.</li>
-          <li>Trip Statistics highlight your top routes, longest flights, and preferred seats.</li>
-        </ul>
-      </div>
-      <div class="feature-block">
-        <h3>Earn & Protect</h3>
-        <ul class="feature-list">
-          <li>Unlock collectible badges and climb community leaderboards.</li>
-          <li>Background uploads, moderation tools, and reporting keep posts reliable.</li>
-          <li>Trip logs stay private while spotting posts can stay public or shared.</li>
-        </ul>
-      </div>
-    </div>
-    <div>
-      <h3>Store Links</h3>
-      <div class="store-badges">
-        <a
-          class="store-badge"
-          href="https://apps.apple.com/app/aeronatics/id6755212824"
-          target="_blank"
-          rel="noopener"
-          aria-label="Download Aeronatics on the App Store"
-        >
-          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="Download on the App Store" />
-        </a>
-        <div class="store-badge" style="background:#e2e8f0; cursor:not-allowed; opacity:0.6;">
-          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play badge (coming soon)" />
-        </div>
-      </div>
-    </div>
-    <div>
-      <h3>Support & Policies</h3>
-      <ul class="policy-links">
-        <li><a href="./aeronatics_support">Support Center</a></li>
-        <li><a href="./aeronatics_privacy_policy">Privacy Policy</a></li>
-        <li><a href="./aeronatics_csae_policy">CSAE Policy</a></li>
-      </ul>
-    </div>
-  </article>
-
   <article class="app-panel" id="flight-atc">
     <div class="app-header">
-      <img src="{{ '/docs/assets/icon_flightATC.png' | relative_url }}" alt="Flight ATC app icon" />
+      <img src="{{ '/assets/icon_flightATC.png' | relative_url }}" alt="Flight ATC app icon" />
       <div>
         <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Arcade ATC Challenge</p>
         <h2>Flight ATC</h2>
@@ -338,6 +274,71 @@ and quick links to stores, support, and policies.
       <ul class="policy-links">
         <li><a href="./flightatc_support">Support Center</a></li>
         <li><a href="./flightatc_privacy_policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="app-panel" id="aeronatics">
+    <div class="app-header">
+      <img src="{{ '/assets/icon_aeronatics.png' | relative_url }}" alt="AeroNatics app icon" />
+      <div>
+        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Spotting & Trip Logging</p>
+        <h2>AeroNatics</h2>
+        <p class="app-lede">
+          Discover aircraft near you, log trips, and share missions with fellow aviation fans worldwide.
+          AeroNatics keeps every moment organized, measurable, and easy to celebrate.
+        </p>
+      </div>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-block">
+        <h3>Share & Discover</h3>
+        <ul class="feature-list">
+          <li>Upload photos with airline, aircraft, and airport tags.</li>
+          <li>Post to global or followers-only feeds and keep collections curated.</li>
+          <li>Bookmark, search, follow spotters, and stay inspired.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>AeroDex & AeroLog</h3>
+        <ul class="feature-list">
+          <li>Reorder manufacturers, hide groups, and track which operators you have captured.</li>
+          <li>Capture multi-leg trip details including seats, registrations, durations, and cabins.</li>
+          <li>Trip Statistics highlight your top routes, longest flights, and preferred seats.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Earn & Protect</h3>
+        <ul class="feature-list">
+          <li>Unlock collectible badges and climb community leaderboards.</li>
+          <li>Background uploads, moderation tools, and reporting keep posts reliable.</li>
+          <li>Trip logs stay private while spotting posts can stay public or shared.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>Store Links</h3>
+      <div class="store-badges">
+        <a
+          class="store-badge"
+          href="https://apps.apple.com/app/aeronatics/id6755212824"
+          target="_blank"
+          rel="noopener"
+          aria-label="Download Aeronatics on the App Store"
+        >
+          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="Download on the App Store" />
+        </a>
+        <div class="store-badge" style="background:#e2e8f0; cursor:not-allowed; opacity:0.6; padding:0.35rem 0.5rem; border:1px solid rgba(148, 163, 184, 0.6);">
+          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play badge (coming soon)" />
+        </div>
+      </div>
+    </div>
+    <div>
+      <h3>Support & Policies</h3>
+      <ul class="policy-links">
+        <li><a href="./aeronatics_support">Support Center</a></li>
+        <li><a href="./aeronatics_privacy_policy">Privacy Policy</a></li>
+        <li><a href="./aeronatics_csae_policy">CSAE Policy</a></li>
       </ul>
     </div>
   </article>
