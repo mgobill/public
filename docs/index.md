@@ -344,9 +344,15 @@ section.main-content {
         >
           <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="Download on the App Store" />
         </a>
-        <div class="store-badge" style="cursor:not-allowed; opacity:0.6;">
-          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play badge (coming soon)" />
-        </div>
+        <a
+          class="store-badge"
+          href="https://play.google.com/store/apps/details?id=com.mgobill.aeronatics"
+          target="_blank"
+          rel="noopener"
+          aria-label="Get Aeronatics on Google Play"
+        >
+          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Get it on Google Play" />
+        </a>
       </div>
     </div>
     <div>
