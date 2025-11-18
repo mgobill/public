@@ -5,6 +5,8 @@ layout: default
 
 # Flight ATC Privacy Policy
 
+[← Back to App Launchpad]({{ '/' | relative_url }})
+
 _Last updated: November 12, 2025_
 
 This Privacy Policy describes how Flight ATC (the “Game”) collects, uses, and shares information about you.

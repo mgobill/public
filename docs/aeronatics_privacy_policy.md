@@ -5,6 +5,8 @@ layout: default
 
 # AeroNatics Privacy Policy
 
+[← Back to App Launchpad]({{ '/' | relative_url }})
+
 _Last updated: 2025-11-07_
 
 ## 1. Overview

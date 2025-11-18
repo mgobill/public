@@ -5,6 +5,8 @@ layout: default
 
 # AeroNatics Child Sexual Abuse & Exploitation (CSAE) Policy
 
+[← Back to App Launchpad]({{ '/' | relative_url }})
+
 _Last updated: 2025-11-07_
 
 AeroNatics (“we”, “us”, “our”) maintains a zero-tolerance stance toward child sexual abuse material (CSAM) and any form of child sexual exploitation. This policy outlines how we define prohibited conduct, the safeguards we employ, and the ways you can report concerns to keep the community safe.

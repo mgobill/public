@@ -5,6 +5,8 @@ layout: default
 
 # Flight ATC Support
 
+[← Back to App Launchpad]({{ '/' | relative_url }})
+
 Thanks for flying with Flight ATC. This page gives you a single place to find help, report problems, and request new features.
 
 ## Contact the team

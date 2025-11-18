@@ -5,6 +5,8 @@ layout: default
 
 # AeroNatics Support
 
+[← Back to App Launchpad]({{ '/' | relative_url }})
+
 We are here to help you get the most out of AeroNatics. Use the options below to request assistance, report issues, or share feedback.
 
 ## Contact the team
