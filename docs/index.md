@@ -122,6 +122,20 @@ section.main-content {
   object-fit: cover;
   flex-shrink: 0;
 }
+.app-icon {
+  width: 96px;
+  height: 96px;
+  border-radius: 22px;
+  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.15);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(135deg, #0ea5e9, #6ee7b7);
+  color: #0f172a;
+  font-size: 42px;
+  font-weight: 800;
+  flex-shrink: 0;
+}
 
 .app-header h2 {
   margin: 0;
@@ -358,6 +372,67 @@ section.main-content {
         <li><a href="https://discord.gg/yXxE5Yx4" target="_blank" rel="noopener">Join the Discord community</a></li>
         <li><a href="./aeronatics_privacy_policy">Privacy Policy</a></li>
         <li><a href="./aeronatics_csae_policy">CSAE Policy</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <article class="app-panel" id="nestynote">
+    <div class="app-header">
+      <div class="app-icon" aria-hidden="true">N</div>
+      <div>
+        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Daily Notes & Logs</p>
+        <h2>NestyNote</h2>
+        <p class="app-lede">
+          Lightweight, privacy-forward note and event tracking. Keep daily moments organized with clean graphs,
+          logged events, and totals at a glance.
+        </p>
+      </div>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-block">
+        <h3>Stay Organized</h3>
+        <ul class="feature-list">
+          <li>Log events with custom fields, timers, and attachments.</li>
+          <li>Graph views to spot patterns by day and type.</li>
+          <li>Daily totals with counts and durations side by side.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Built-In Privacy</h3>
+        <ul class="feature-list">
+          <li>Email-based sign-in with verification.</li>
+          <li>Data stored securely in the cloud; your content stays yours.</li>
+          <li>Clear controls to update or delete your data anytime.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Coming Soon</h3>
+        <ul class="feature-list">
+          <li>Native iOS and Android builds currently in review.</li>
+          <li>Cross-device sync with simple onboarding.</li>
+          <li>More visual themes and export options planned.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>Store Links</h3>
+      <div class="store-badges">
+        <span class="store-badge" aria-label="App Store coming soon">
+          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="App Store coming soon" style="opacity:0.35;" />
+        </span>
+        <span class="store-badge" aria-label="Google Play coming soon">
+          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play coming soon" style="opacity:0.35;" />
+        </span>
+      </div>
+      <p class="app-lede" style="margin-top:0.5rem; color:#475569;">
+        iOS and Android builds are on the way—check back soon.
+      </p>
+    </div>
+    <div>
+      <h3>Support & Policies</h3>
+      <ul class="policy-links">
+        <li><span style="color:#475569;">Support Center (coming soon)</span></li>
+        <li><a href="./nestynote_privacy_policy">Privacy Policy</a></li>
       </ul>
     </div>
   </article>
