@@ -378,7 +378,7 @@ section.main-content {
 
   <article class="app-panel" id="nestynote">
     <div class="app-header">
-      <div class="app-icon" aria-hidden="true">N</div>
+      <img src="{{ '/assets/icon_nestynote.png' | relative_url }}" alt="NestyNote app icon" />
       <div>
         <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Baby Tracking & Care Logs</p>
         <h2>NestyNote</h2>
