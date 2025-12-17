@@ -224,12 +224,12 @@ section.main-content {
 </style>
 
 <div class="hero">
-  <p class="eyebrow">Individually crafted aviation apps</p>
-  <h1>Purpose-built mobile experiences for flight logging, spotting, and air traffic thrills.</h1>
+  <p class="eyebrow">Indie-built tools for real life</p>
+  <h1>Practical mobile apps for aviation fans, parents, and anyone who loves clear, focused helpers.</h1>
   <ul class="hero-highlights">
-    <li>Native iOS + Android experiences</li>
-    <li>Community-friendly support centers</li>
-    <li>Privacy-forward policies for every launch</li>
+    <li>Spotting, ATC, and baby tracking crafted by a single maker.</li>
+    <li>Fast, privacy-minded experiences on iOS and Android.</li>
+    <li>Friendly support pages and policies for every launch.</li>
   </ul>
 </div>
 
@@ -380,21 +380,21 @@ section.main-content {
     <div class="app-header">
       <div class="app-icon" aria-hidden="true">N</div>
       <div>
-        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Daily Notes & Logs</p>
+        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Baby Tracking & Care Logs</p>
         <h2>NestyNote</h2>
         <p class="app-lede">
-          Lightweight, privacy-forward note and event tracking. Keep daily moments organized with clean graphs,
-          logged events, and totals at a glance.
+          Track feedings, diapers, naps, and meds in one place. Built to answer the "when was the last time?" question
+          so parents can stay in sync and care with confidence.
         </p>
       </div>
     </div>
     <div class="feature-grid">
       <div class="feature-block">
-        <h3>Stay Organized</h3>
+        <h3>Track every routine</h3>
         <ul class="feature-list">
-          <li>Log events with custom fields, timers, and attachments.</li>
-          <li>Graph views to spot patterns by day and type.</li>
-          <li>Daily totals with counts and durations side by side.</li>
+          <li>Log nursing, bottle feeds, pumping sessions, diapers, naps, and meds without slowing down.</li>
+          <li>See the last time each care task happened to plan the next one confidently.</li>
+          <li>Graphs and daily totals make it easy to spot rhythms and discuss them with your pediatrician.</li>
         </ul>
       </div>
       <div class="feature-block">
@@ -431,7 +431,7 @@ section.main-content {
     <div>
       <h3>Support & Policies</h3>
       <ul class="policy-links">
-        <li><span style="color:#475569;">Support Center (coming soon)</span></li>
+        <li><a href="./nestynote_support">Support Center</a></li>
         <li><a href="./nestynote_privacy_policy">Privacy Policy</a></li>
       </ul>
     </div>
