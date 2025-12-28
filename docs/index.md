@@ -4,8 +4,20 @@ layout: default
 ---
 
 <style>
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
 :root {
   color-scheme: light;
+  --ink: #0f172a;
+  --muted: #475569;
+  --bg: #f8f5f0;
+  --panel: #ffffff;
+  --outline: #e2e8f0;
+  --accent: #0f766e;
+  --accent-strong: #115e59;
+  --accent-warm: #f59e0b;
+  --shadow-soft: 0 22px 50px rgba(15, 23, 42, 0.08);
+  --shadow-strong: 0 35px 80px rgba(15, 23, 42, 0.22);
 }
 
 *,
@@ -16,18 +28,21 @@ layout: default
 
 body {
   margin: 0;
-  background: #f8fafc;
-  color: #0f172a;
-  font-family: 'Inter', 'SF Pro Display', 'Helvetica Neue', Arial, sans-serif;
+  background:
+    radial-gradient(circle at 20% 10%, rgba(245, 158, 11, 0.18), transparent 45%),
+    radial-gradient(circle at 80% 20%, rgba(14, 116, 144, 0.2), transparent 50%),
+    linear-gradient(180deg, #fef9f3 0%, #f3f7fb 60%, #f8fafc 100%);
+  color: var(--ink);
+  font-family: 'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif;
   line-height: 1.6;
 }
 
 a {
-  color: #2563eb;
+  color: var(--accent);
 }
 
 a:hover {
-  color: #1d4ed8;
+  color: var(--accent-strong);
 }
 
 .page-header,
@@ -36,7 +51,7 @@ a:hover {
 }
 
 section.main-content {
-  max-width: 1120px;
+  max-width: 1180px;
   padding: 0 1.75rem 4rem;
   margin: 0 auto;
   background: transparent;
@@ -44,50 +59,108 @@ section.main-content {
 }
 
 .hero {
-  margin: 2.5rem 0 3rem;
-  padding: 2.5rem;
-  border-radius: 24px;
-  border: 1px solid rgba(99, 102, 241, 0.25);
-  background: radial-gradient(circle at 10% 20%, rgba(129, 140, 248, 0.28), transparent 55%),
-    radial-gradient(circle at 80% 0%, rgba(14, 165, 233, 0.25), transparent 60%),
-    #0f172a;
+  margin: 2.5rem 0 2.5rem;
+  padding: clamp(2rem, 4vw, 3.5rem);
+  border-radius: 28px;
+  background: linear-gradient(140deg, #0f172a 10%, #0f766e 60%, #115e59 100%);
   color: #f8fafc;
-  box-shadow: 0 40px 90px rgba(15, 23, 42, 0.35);
+  box-shadow: var(--shadow-strong);
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  position: relative;
+  overflow: hidden;
+}
+
+.hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background:
+    radial-gradient(circle at 15% 25%, rgba(255, 255, 255, 0.16), transparent 45%),
+    radial-gradient(circle at 90% 15%, rgba(255, 255, 255, 0.12), transparent 50%);
+  pointer-events: none;
+}
+
+.hero > * {
+  position: relative;
+  z-index: 1;
 }
 
 .hero h1 {
-  font-size: clamp(2.25rem, 6vw, 3.25rem);
+  font-family: 'Fraunces', 'Georgia', serif;
+  font-size: clamp(2.25rem, 6vw, 3.4rem);
   margin: 0.35rem 0 0.85rem;
 }
 
-.hero p {
-  max-width: 720px;
+.hero-lede {
+  max-width: 560px;
   font-size: 1.1rem;
-  line-height: 1.6;
+  color: rgba(248, 250, 252, 0.85);
+  margin: 0 0 1.25rem;
 }
 
 .eyebrow {
-  letter-spacing: 0.18em;
+  letter-spacing: 0.28em;
   text-transform: uppercase;
-  font-size: 0.85rem;
+  font-size: 0.75rem;
   font-weight: 700;
   color: rgba(248, 250, 252, 0.75);
 }
 
-.hero-highlights {
-  margin: 1.5rem 0 0;
-  padding: 0;
-  list-style: none;
+.hero-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.hero-tags span {
+  padding: 0.45rem 0.8rem;
+  border-radius: 999px;
+  background: rgba(248, 250, 252, 0.16);
+  border: 1px solid rgba(248, 250, 252, 0.28);
+  font-size: 0.9rem;
+}
+
+.hero-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
   gap: 1rem;
 }
 
-.hero-highlights li {
-  padding: 0.85rem 1rem;
-  border-radius: 12px;
-  border: 1px solid rgba(248, 250, 252, 0.25);
-  background: rgba(15, 23, 42, 0.45);
+.hero-card {
+  padding: 1rem 1.1rem;
+  border-radius: 16px;
+  background: rgba(15, 23, 42, 0.35);
+  border: 1px solid rgba(248, 250, 252, 0.18);
+  box-shadow: inset 0 0 0 1px rgba(15, 23, 42, 0.1);
+}
+
+.hero-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+.hero-card p {
+  margin: 0;
+  color: rgba(248, 250, 252, 0.75);
+}
+
+.catalog-header {
+  margin: 2.5rem 0 1.5rem;
+  display: grid;
+  gap: 0.6rem;
+}
+
+.catalog-header h2 {
+  margin: 0;
+  font-family: 'Fraunces', 'Georgia', serif;
+  font-size: clamp(1.75rem, 3vw, 2.4rem);
+}
+
+.catalog-lede {
+  margin: 0;
+  color: var(--muted);
+  max-width: 640px;
 }
 
 .app-panels {
@@ -98,11 +171,11 @@ section.main-content {
 }
 
 .app-panel {
-  border-radius: 20px;
-  border: 1px solid #e2e8f0;
+  border-radius: 22px;
+  border: 1px solid var(--outline);
   padding: 2rem;
-  background: #fff;
-  box-shadow: 0 25px 65px rgba(15, 23, 42, 0.08);
+  background: var(--panel);
+  box-shadow: var(--shadow-soft);
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
@@ -111,22 +184,23 @@ section.main-content {
 .app-header {
   display: flex;
   align-items: center;
-  gap: 1rem;
+  gap: 1.25rem;
 }
 
 .app-header img {
   width: 96px;
   height: 96px;
   border-radius: 22px;
-  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.15);
+  box-shadow: 0 18px 32px rgba(15, 23, 42, 0.16);
   object-fit: cover;
   flex-shrink: 0;
 }
+
 .app-icon {
   width: 96px;
   height: 96px;
   border-radius: 22px;
-  box-shadow: 0 15px 30px rgba(15, 23, 42, 0.15);
+  box-shadow: 0 18px 32px rgba(15, 23, 42, 0.16);
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -139,12 +213,13 @@ section.main-content {
 
 .app-header h2 {
   margin: 0;
+  font-family: 'Fraunces', 'Georgia', serif;
   font-size: 1.85rem;
 }
 
 .app-lede {
   margin: 0.15rem 0 0.5rem;
-  color: #475569;
+  color: var(--muted);
   line-height: 1.6;
 }
 
@@ -155,8 +230,8 @@ section.main-content {
 }
 
 .feature-block {
-  border-radius: 14px;
-  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  border: 1px solid var(--outline);
   padding: 1rem 1.25rem;
   background: #f8fafc;
 }
@@ -169,7 +244,7 @@ section.main-content {
 .feature-list {
   margin: 0;
   padding-left: 1.25rem;
-  color: #475569;
+  color: var(--muted);
 }
 
 .store-badges {
@@ -203,12 +278,12 @@ section.main-content {
 .policy-links {
   margin: 0;
   padding-left: 1.25rem;
-  color: #475569;
+  color: var(--muted);
 }
 
 @media (max-width: 640px) {
-  .hero {
-    padding: 2rem;
+  section.main-content {
+    padding: 0 1.25rem 3.5rem;
   }
 
   .app-header {
@@ -224,13 +299,41 @@ section.main-content {
 </style>
 
 <div class="hero">
-  <p class="eyebrow">Indie-built tools for real life</p>
-  <h1>Practical mobile apps for aviation fans, parents, and anyone who loves clear, focused helpers.</h1>
-  <ul class="hero-highlights">
-    <li>Spotting, ATC, and baby tracking crafted by a single maker.</li>
-    <li>Fast, privacy-minded experiences on iOS and Android.</li>
-    <li>Friendly support pages and policies for every launch.</li>
-  </ul>
+  <div class="hero-copy">
+    <p class="eyebrow">MGOBILL APP CATALOG</p>
+    <h1>Independent apps for clear, focused workflows.</h1>
+    <p class="hero-lede">
+      A growing collection of tools built to do one job well—covering everything from aviation
+      adventures to clinical reference and daily routines.
+    </p>
+    <div class="hero-tags">
+      <span>Offline-ready</span>
+      <span>Privacy-minded</span>
+      <span>Human-scale support</span>
+    </div>
+  </div>
+  <div class="hero-cards">
+    <div class="hero-card">
+      <h3>Designed for real moments</h3>
+      <p>Each app is tuned for speed, clarity, and the moments you need answers quickly.</p>
+    </div>
+    <div class="hero-card">
+      <h3>Multiple categories, one vision</h3>
+      <p>Aviation, health, parenting, and beyond—diverse apps with a consistent, focused feel.</p>
+    </div>
+    <div class="hero-card">
+      <h3>Always expanding</h3>
+      <p>New ideas ship with dedicated support and transparent privacy policies.</p>
+    </div>
+  </div>
+</div>
+
+<div class="catalog-header">
+  <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">App Catalog</p>
+  <h2>Explore the lineup.</h2>
+  <p class="catalog-lede">
+    Browse each app’s highlights, find support resources, and jump to the store listings as they go live.
+  </p>
 </div>
 
 <div class="app-panels">
