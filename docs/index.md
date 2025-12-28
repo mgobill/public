@@ -436,4 +436,65 @@ section.main-content {
       </ul>
     </div>
   </article>
+
+  <article class="app-panel" id="orad-ddx">
+    <div class="app-header">
+      <img src="{{ '/assets/icon_oraddx.png' | relative_url }}" alt="ORAD DDx app icon" />
+      <div>
+        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Oral Radiology Differential</p>
+        <h2>ORAD DDx</h2>
+        <p class="app-lede">
+          A focused differential diagnosis assistant for oral radiology. Select imaging factors, then
+          scan matching diagnoses grouped by category.
+        </p>
+      </div>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-block">
+        <h3>Factor-Driven</h3>
+        <ul class="feature-list">
+          <li>Select key imaging factors to narrow the list quickly.</li>
+          <li>Exclusive groups keep selections clean and consistent.</li>
+          <li>Clear counts show how many diagnoses match.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Organized Results</h3>
+        <ul class="feature-list">
+          <li>Diagnoses grouped by category for fast scanning.</li>
+          <li>Clean two-tab layout: Factors then Diagnoses.</li>
+          <li>Built for quick review during study or chairside prep.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Offline Reference</h3>
+        <ul class="feature-list">
+          <li>Runs fully offline once installed.</li>
+          <li>No accounts or logins required.</li>
+          <li>Lightweight and fast on iPhone and iPad.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>Store Links</h3>
+      <div class="store-badges">
+        <span class="store-badge" aria-label="App Store coming soon">
+          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="App Store coming soon" style="opacity:0.35;" />
+        </span>
+        <span class="store-badge" aria-label="Google Play coming soon">
+          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play coming soon" style="opacity:0.35;" />
+        </span>
+      </div>
+      <p class="app-lede" style="margin-top:0.5rem; color:#475569;">
+        App Store and Google Play links will be added after approval.
+      </p>
+    </div>
+    <div>
+      <h3>Support & Policies</h3>
+      <ul class="policy-links">
+        <li><a href="./orad_ddx_support">Support Center</a></li>
+        <li><a href="./orad_ddx_privacy_policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </article>
 </div>
