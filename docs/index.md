@@ -4,8 +4,6 @@ layout: default
 ---
 
 <style>
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
-
 :root {
   color-scheme: light;
   --ink: #0f172a;
@@ -33,7 +31,7 @@ body {
     radial-gradient(circle at 80% 20%, rgba(14, 116, 144, 0.2), transparent 50%),
     linear-gradient(180deg, #fef9f3 0%, #f3f7fb 60%, #f8fafc 100%);
   color: var(--ink);
-  font-family: 'Space Grotesk', 'Avenir Next', 'Segoe UI', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -88,7 +86,6 @@ section.main-content {
 }
 
 .hero h1 {
-  font-family: 'Fraunces', 'Georgia', serif;
   font-size: clamp(2.25rem, 6vw, 3.4rem);
   margin: 0.35rem 0 0.85rem;
 }
@@ -153,7 +150,6 @@ section.main-content {
 
 .catalog-header h2 {
   margin: 0;
-  font-family: 'Fraunces', 'Georgia', serif;
   font-size: clamp(1.75rem, 3vw, 2.4rem);
 }
 
@@ -213,7 +209,6 @@ section.main-content {
 
 .app-header h2 {
   margin: 0;
-  font-family: 'Fraunces', 'Georgia', serif;
   font-size: 1.85rem;
 }
 
