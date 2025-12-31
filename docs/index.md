@@ -503,14 +503,6 @@ section.main-content {
           <li>Clear controls to update or delete your data anytime.</li>
         </ul>
       </div>
-      <div class="feature-block">
-        <h3>Coming Soon</h3>
-        <ul class="feature-list">
-          <li>Native iOS and Android builds currently in review.</li>
-          <li>Cross-device sync with simple onboarding.</li>
-          <li>More visual themes and export options planned.</li>
-        </ul>
-      </div>
     </div>
     <div>
       <h3>Store Links</h3>
