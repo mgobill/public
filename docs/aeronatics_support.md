@@ -18,7 +18,7 @@ We are here to help you get the most out of AeroNatics. Use the options below to
 When you reach out, please include:
 
 1. AeroNatics app version (Settings → bottom of page).
-2. Device model and iOS version.
+2. Device model and OS version.
 3. A clear description of the issue, reproduction steps, and screenshots or screen recordings if available.
 
 ## Common topics

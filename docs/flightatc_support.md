@@ -18,7 +18,7 @@ Thanks for flying with Flight ATC. This page gives you a single place to find he
 When you reach out, please include:
 
 1. The version of Flight ATC you are using (on the introductory screen).
-2. The device model and iOS version.
+2. The device model and OS version.
 3. A brief description of the issue, steps to reproduce it, and screenshots if available.
 
 ## Common topics

@@ -11,14 +11,12 @@ Thanks for using ORAD DDx. This page is the fastest way to request help, report 
 
 ## Contact the team
 
-- **Email:** [moocbear@gmail.com](mailto:moocbear@gmail.com)
-- **Support hours:** Monday–Friday, 9:00–17:00 EST
-- **Response target:** within 2 business days
+- **Email:** [denllz@nus.edu.sg](mailto:denllz@nus.edu.sg)
 
 When you reach out, please include:
 
-1. Your ORAD DDx app version (from TestFlight/App Store build details).
-2. Device model and iOS version.
+1. Your ORAD DDx app version (from TestFlight/App Store/Play Store build details).
+2. Device model and OS version.
 3. A short description of the issue, steps to reproduce it, and screenshots if available.
 
 ## Common topics

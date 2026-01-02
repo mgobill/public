@@ -37,4 +37,4 @@ If our practices change, we will update this policy and revise the date above.
 
 ## 7. Contact
 
-Questions or requests: moocbear@gmail.com
+Questions or requests: denllz@nus.edu.sg
