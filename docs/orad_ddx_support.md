@@ -31,4 +31,4 @@ ORAD DDx works fully offline and does not rely on servers. If anything changes, 
 
 ## Escalation
 
-If something is urgent, add “URGENT” to the email subject line. We monitor that inbox closely.
+If something is urgent, add “URGENT” to the email subject line.
