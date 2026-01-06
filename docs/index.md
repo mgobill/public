@@ -49,7 +49,7 @@ a:hover {
 }
 
 section.main-content {
-  max-width: 1180px;
+  max-width: 1400px;
   padding: 0 1.75rem 4rem;
   margin: 0 auto;
   background: transparent;
@@ -161,7 +161,7 @@ section.main-content {
 
 .app-panels {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
   margin-bottom: 2.5rem;
 }
