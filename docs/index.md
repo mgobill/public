@@ -590,4 +590,65 @@ section.main-content {
       </ul>
     </div>
   </article>
+
+  <article class="app-panel" id="suner">
+    <div class="app-header">
+      <img src="{{ '/assets/icon_suner.png' | relative_url }}" alt="Suner app icon" />
+      <div>
+        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Personal Finance Dashboard</p>
+        <h2>Suner</h2>
+        <p class="app-lede">
+          Track net worth, set goals, and visualize progress with projections. Suner keeps your
+          snapshots, transfers, and goal trends organized in one clear financial workspace.
+        </p>
+      </div>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-block">
+        <h3>Net Worth Clarity</h3>
+        <ul class="feature-list">
+          <li>Log snapshots and transfers to see your full financial picture.</li>
+          <li>Track assets and liabilities across custom accounts.</li>
+          <li>View trends over time with clean charts.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Goals & Projections</h3>
+        <ul class="feature-list">
+          <li>Set retirement, FIRE, contributions, or net worth goals.</li>
+          <li>Build multi-phase projections with adjustable assumptions.</li>
+          <li>Compare progress with goal trend views.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Sync & Control</h3>
+        <ul class="feature-list">
+          <li>Optional cloud backup with auto-sync across devices.</li>
+          <li>Reorder and personalize your dashboard layout.</li>
+          <li>Keep data private with account-based access.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>Store Links</h3>
+      <div class="store-badges">
+        <span class="store-badge" aria-label="App Store coming soon">
+          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="App Store coming soon" style="opacity:0.35;" />
+        </span>
+        <span class="store-badge" aria-label="Google Play coming soon">
+          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play coming soon" style="opacity:0.35;" />
+        </span>
+      </div>
+      <p class="app-lede" style="margin-top:0.5rem; color:#475569;">
+        Store links will be added once listings are live.
+      </p>
+    </div>
+    <div>
+      <h3>Support & Policies</h3>
+      <ul class="policy-links">
+        <li><a href="./suner_support">Support Center</a></li>
+        <li><a href="./suner_privacy_policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </article>
 </div>
