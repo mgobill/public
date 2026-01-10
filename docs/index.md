@@ -632,15 +632,21 @@ section.main-content {
     <div>
       <h3>Store Links</h3>
       <div class="store-badges">
-        <span class="store-badge" aria-label="App Store coming soon">
-          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="App Store coming soon" style="opacity:0.35;" />
-        </span>
+        <a
+          class="store-badge"
+          href="https://apps.apple.com/us/app/suner/id6757318821"
+          target="_blank"
+          rel="noopener"
+          aria-label="Download Suner on the App Store"
+        >
+          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="Download on the App Store" />
+        </a>
         <span class="store-badge" aria-label="Google Play coming soon">
           <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play coming soon" style="opacity:0.35;" />
         </span>
       </div>
       <p class="app-lede" style="margin-top:0.5rem; color:#475569;">
-        Store links will be added once listings are live.
+        iOS is live on the App Store. Android is on the way—check back soon.
       </p>
     </div>
     <div>
