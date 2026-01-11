@@ -332,6 +332,67 @@ section.main-content {
 </div>
 
 <div class="app-panels">
+  <article class="app-panel" id="tepes">
+    <div class="app-header">
+      <img src="{{ '/assets/icon_tepes.png' | relative_url }}" alt="Tepes app icon" />
+      <div>
+        <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Location-Based Tips</p>
+        <h2>Tepes</h2>
+        <p class="app-lede">
+          Drop location-based tips for people nearby. Tepes keeps short, useful notes tied to
+          real places so the community can share what matters right now.
+        </p>
+      </div>
+    </div>
+    <div class="feature-grid">
+      <div class="feature-block">
+        <h3>Post in the moment</h3>
+        <ul class="feature-list">
+          <li>Share quick tips anchored to your current location.</li>
+          <li>Add a photo to give helpful visual context.</li>
+          <li>Choose public or private visibility per tepe.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Discover nearby</h3>
+        <ul class="feature-list">
+          <li>See tepes plotted on a map and list view.</li>
+          <li>Tap markers to highlight the matching entry.</li>
+          <li>Use your location to surface what is close to you.</li>
+        </ul>
+      </div>
+      <div class="feature-block">
+        <h3>Save and manage</h3>
+        <ul class="feature-list">
+          <li>Bookmark helpful tepes for later.</li>
+          <li>Report or remove posts to keep things clean.</li>
+          <li>Control your profile and account settings in-app.</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>Store Links</h3>
+      <div class="store-badges">
+        <span class="store-badge" aria-label="App Store coming soon">
+          <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="App Store coming soon" style="opacity:0.35;" />
+        </span>
+        <span class="store-badge" aria-label="Google Play coming soon">
+          <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Google Play coming soon" style="opacity:0.35;" />
+        </span>
+      </div>
+      <p class="app-lede" style="margin-top:0.5rem; color:#475569;">
+        Store links will be added once Tepes is live.
+      </p>
+    </div>
+    <div>
+      <h3>Support & Policies</h3>
+      <ul class="policy-links">
+        <li><a href="./tepes_support">Support Center</a></li>
+        <li><a href="./tepes_privacy_policy">Privacy Policy</a></li>
+      </ul>
+    </div>
+  </article>
+
   <article class="app-panel" id="flight-atc">
     <div class="app-header">
       <img src="{{ '/assets/icon_flightATC.png' | relative_url }}" alt="Flight ATC app icon" />
