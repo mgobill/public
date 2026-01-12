@@ -183,6 +183,7 @@ section.main-content {
   gap: 1.25rem;
   --eyebrow-size: 0.75rem;
   --eyebrow-gap: 0.35rem;
+  --icon-offset: calc(var(--eyebrow-size) + var(--eyebrow-gap) + 0.3rem);
 }
 
 .app-header > div {
@@ -208,7 +209,7 @@ section.main-content {
 
 .app-header img,
 .app-header .app-icon {
-  margin-top: calc(var(--eyebrow-size) + var(--eyebrow-gap));
+  margin-top: var(--icon-offset);
 }
 
 .app-icon {
