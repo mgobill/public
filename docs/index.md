@@ -179,8 +179,22 @@ section.main-content {
 
 .app-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   gap: 1.25rem;
+  --eyebrow-size: 0.75rem;
+  --eyebrow-gap: 0.35rem;
+}
+
+.app-header > div {
+  display: flex;
+  flex-direction: column;
+  gap: var(--eyebrow-gap);
+}
+
+.app-header .eyebrow {
+  margin: 0;
+  font-size: var(--eyebrow-size);
+  line-height: 1;
 }
 
 .app-header img {
@@ -190,6 +204,11 @@ section.main-content {
   box-shadow: 0 18px 32px rgba(15, 23, 42, 0.16);
   object-fit: cover;
   flex-shrink: 0;
+}
+
+.app-header img,
+.app-header .app-icon {
+  margin-top: calc(var(--eyebrow-size) + var(--eyebrow-gap));
 }
 
 .app-icon {
@@ -210,6 +229,10 @@ section.main-content {
 .app-header h2 {
   margin: 0;
   font-size: 1.85rem;
+}
+
+.app-header .app-lede {
+  margin: 0;
 }
 
 .app-lede {
@@ -284,6 +307,11 @@ section.main-content {
   .app-header {
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  .app-header img,
+  .app-header .app-icon {
+    margin-top: 0;
   }
 
   .store-badge {
