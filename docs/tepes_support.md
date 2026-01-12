@@ -12,8 +12,6 @@ Thanks for using Tepes. This page covers support, bug reports, and feature reque
 ## Contact the team
 
 - **Email:** [moocbear@gmail.com](mailto:moocbear@gmail.com)
-- **Support hours:** Monday–Friday, 9:00–17:00 EST
-- **Response target:** within 2 business days
 
 When you reach out, please include:
 

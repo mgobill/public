@@ -12,8 +12,6 @@ We are here to help you get the most out of AeroNatics. Use the options below to
 ## Contact the team
 
 - **Email:** [moocbear@gmail.com](mailto:moocbear@gmail.com)
-- **Support hours:** Monday–Friday, 9:00–17:00 EST
-- **Response target:** within 2 business days
 
 When you reach out, please include:
 

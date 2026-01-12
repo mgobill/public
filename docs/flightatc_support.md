@@ -12,8 +12,6 @@ Thanks for flying with Flight ATC. This page gives you a single place to find he
 ## Contact the team
 
 - **Email:** [moocbear@gmail.com](mailto:moocbear@gmail.com)
-- **Support hours:** Monday–Friday, 9:00–17:00 EST
-- **Response target:** within 2 business days
 
 When you reach out, please include:
 

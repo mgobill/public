@@ -12,8 +12,6 @@ We’re here to help you get the most from Suner. Use this page to request assis
 ## Contact the team
 
 - **Email:** [moocbear@gmail.com](mailto:moocbear@gmail.com)
-- **Support hours:** Monday–Friday, 9:00–17:00 EST
-- **Response target:** within 2 business days
 
 When you reach out, please include:
 
