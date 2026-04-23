@@ -756,7 +756,7 @@ section.main-content {
 
   <article class="app-panel" id="chable">
     <div class="app-header">
-      <img src="{{ '/assets/icon_chable_placeholder.svg' | relative_url }}" alt="Chable app icon placeholder" />
+      <img src="{{ '/assets/icon_chable.png' | relative_url }}" alt="Chable app icon" />
       <div>
         <p class="eyebrow" style="color:#0f172a; letter-spacing:0.2em;">Business Strategy Simulation</p>
         <h2>Chable</h2>
