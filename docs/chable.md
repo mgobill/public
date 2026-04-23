@@ -101,7 +101,8 @@ h1 {
 
 .cta-strip {
   display: grid;
-  gap: 0.7rem;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.65rem;
 }
 
 .store-link {
@@ -162,34 +163,54 @@ h1 {
   color: var(--muted);
 }
 
-.links {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.9rem;
-  margin-top: 0.65rem;
+.actions {
+  margin-top: 0.9rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--stroke);
+  display: grid;
+  gap: 0.6rem;
 }
 
-.links a {
+.quick-links {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.6rem;
+}
+
+.quick-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 42px;
+  border-radius: 12px;
+  border: 1px solid var(--stroke);
+  background: #f8fbfd;
   color: var(--teal);
   text-decoration: none;
   font-weight: 700;
+  font-size: 0.93rem;
 }
 
-.links a:hover {
+.quick-link:hover {
+  background: #eef6f7;
   color: var(--teal-strong);
-  text-decoration: underline;
 }
 
 .back-link {
   display: inline-flex;
-  margin-top: 0.2rem;
-  color: #0f766e;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  border-radius: 12px;
+  border: 1px dashed #b9d2dd;
+  background: rgba(15, 118, 110, 0.06);
+  color: #0f5f66;
   font-weight: 700;
   text-decoration: none;
 }
 
 .back-link:hover {
-  text-decoration: underline;
+  background: rgba(15, 118, 110, 0.12);
 }
 
 @media (min-width: 760px) {
@@ -258,10 +279,12 @@ h1 {
     <p class="meta">
       Store availability can vary by country/region.
     </p>
-    <div class="links">
-      <a href="{{ '/chable_support' | relative_url }}">Support Center</a>
-      <a href="{{ '/chable_privacy_policy' | relative_url }}">Privacy Policy</a>
+    <div class="actions">
+      <div class="quick-links">
+        <a class="quick-link" href="{{ '/chable_support' | relative_url }}">Support Center</a>
+        <a class="quick-link" href="{{ '/chable_privacy_policy' | relative_url }}">Privacy Policy</a>
+      </div>
+      <a class="back-link" href="{{ '/' | relative_url }}">← Back to App Launchpad</a>
     </div>
-    <a class="back-link" href="{{ '/' | relative_url }}">← Back to App Launchpad</a>
   </section>
 </div>
