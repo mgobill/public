@@ -5,7 +5,7 @@ description: Chable download links and game overview
 permalink: /chable/
 ---
 
-{% assign chable_app_store_url = "https://apps.apple.com/us/search?term=chable" %}
+{% assign chable_app_store_url = "https://apps.apple.com/app/chable/id6762150334" %}
 {% assign chable_play_store_url = "https://play.google.com/store/search?q=chable&c=apps" %}
 
 <style>
@@ -100,35 +100,38 @@ h1 {
 }
 
 .cta-strip {
+  display: block;
+}
+
+.store-card {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 0.65rem;
+  background: var(--panel);
+  border: 1px solid var(--stroke);
+  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
+  border-radius: 14px;
+  padding: 0.6rem;
 }
 
 .store-link {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  min-height: 54px;
-  border-radius: 14px;
-  background: var(--panel);
-  border: 1px solid var(--stroke);
-  box-shadow: 0 10px 20px rgba(15, 23, 42, 0.08);
-  padding: 0.45rem 0.9rem;
-  transition: transform 130ms ease, box-shadow 130ms ease;
+  min-height: 52px;
+  border-radius: 10px;
+  padding: 0.35rem 0.5rem;
+  transition: background 130ms ease;
 }
 
 .store-link:hover {
-  transform: translateY(-1px);
-  box-shadow: 0 14px 28px rgba(15, 23, 42, 0.15);
+  background: #f1f5f9;
 }
 
 .store-link img {
-  max-width: 100%;
-  max-height: 44px;
+  height: 38px;
   width: auto;
-  height: auto;
+  max-width: 100%;
 }
 
 .overview {
@@ -257,12 +260,14 @@ h1 {
   </section>
 
   <aside class="cta-strip" aria-label="Download Chable">
-    <a class="store-link" href="{{ chable_app_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download Chable on the App Store">
-      <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="Download on the App Store" />
-    </a>
-    <a class="store-link" href="{{ chable_play_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="Get Chable on Google Play">
-      <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Get it on Google Play" />
-    </a>
+    <div class="store-card">
+      <a class="store-link" href="{{ chable_app_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="Download Chable on the App Store">
+        <img src="{{ '/assets/branding/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.svg' | relative_url }}" alt="Download on the App Store" />
+      </a>
+      <a class="store-link" href="{{ chable_play_store_url }}" target="_blank" rel="noopener noreferrer" aria-label="Get Chable on Google Play">
+        <img src="{{ '/assets/branding/GetItOnGooglePlay_Badge_Web_color_English.svg' | relative_url }}" alt="Get it on Google Play" />
+      </a>
+    </div>
   </aside>
 
   <section class="overview">
